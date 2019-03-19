@@ -1,3 +1,40 @@
-.red {
-  color: var(--color-red);
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+input,
+button {
+  background-color: transparent;
+  border: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 950px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+img {
+  width: 100%;
 }
